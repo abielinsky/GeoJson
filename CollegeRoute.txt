@@ -1,72 +1,40 @@
-{
-  "favouritePlaces": {
-    "type": "FeatureCollection",
-    "features": [
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-9.4217, 52.9719]  // Cliffs of Moher coordinates (longitude, latitude)
-        },
-        "properties": {
-          "name": "Cliffs of Moher",
-          "description": "The Cliffs of Moher are breathtaking sea cliffs located on the west coast of Ireland. 
-                          They offer stunning views of the Atlantic Ocean and are a popular tourist attraction.",
-          "category": "Natural Wonder",
-          "website": "https://www.cliffsofmoher.ie/",
-          "image": "https://www.irelandsown.ie/wp-content/uploads/2016/06/thecliffs-1.jpg",
-          "locationAddress": "Liscannor, County Clare, Ireland",
-          "contact": {
-            "phone": "+353 65 708 6141",
-            "email": "info@cliffsofmoher.ie"
-          },
-          "openingHours": "Daily: 9:00 AM - 7:00 PM",
-          "admissionFee": "Adults: €8.00, Children (under 16): Free"
-        }
+"type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [53.986992, 6.397677]
       },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-6.2603, 53.3436]  // Guinness Storehouse coordinates (longitude, latitude)
-        },
-        "properties": {
-          "name": "Guinness Storehouse",
-          "description": "The Guinness Storehouse is a famous brewery and visitor center in Dublin, Ireland. 
-                          It offers interactive exhibits on the history of Guinness and the brewing process.",
-          "category": "Cultural Attraction",
-          "website": "https://www.guinness-storehouse.com/en/home",
-          "image": "https://i.pinimg.com/originals/11/0d/a8/110da8188f7bd1ae1be46938df07940d.jpg",
-          "locationAddress": "St James's Gate, Dublin, Ireland",
-          "contact": {
-            "phone": "+353 1 408 4800",
-            "email": "info@guinnessstorehouse.com"
-          },
-          "openingHours": "Mon-Sun: 9:30 AM - 7:00 PM",
-          "admissionFee": "Adults: €20.00, Children (6-12): €16.00, Children (under 6): Free"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-6.5141, 55.2409]  // Giant's Causeway coordinates (longitude, latitude)
-        },
-        "properties": {
-          "name": "Giant's Causeway",
-          "description": "Giant's Causeway is a unique natural rock formation on the coast of County Antrim in Northern Ireland. It is famous for its hexagonal basalt columns formed by volcanic activity.",
-          "category": "Natural Wonder",
-          "website": "https://www.nationaltrust.org.uk/giants-causeway",
-          "image": "https://www.covingtontravel.com/wp-content/uploads/2013/07/Dollarphotoclub_63871261_giants-causeway.jpg",
-          "locationAddress": "44 Causeway Road, Bushmills, County Antrim, BT57 8SU, United Kingdom",
-          "contact": {
-            "phone": "+44 28 2073 1855",
-            "email": "giantscauseway@nationaltrust.org.uk"
-          },
-          "openingHours": "Daily: 9:00 AM - 7:00 PM (subject to seasonal variations)",
-          "admissionFee": "Adults: £13.50, Children (5-17): £6.75, Children (under 5): Free"
-        }
+      "properties": {
+        "name": "Home"
       }
-    ]
-  }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [53.981815, -6.392078]
+
+      },
+      "properties": {
+        "name": "College"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [53.3416216, -6.2583461],  
+          [53.9842796, -6.3959454]  
+        ]
+      },
+      "properties": {
+        "name": "Route from Home to College",
+        "distance": 1.1,  
+        "time": "15 minutes"  
+      }
+    }
+  ]
 }
